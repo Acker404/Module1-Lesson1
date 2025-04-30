@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <StartupObject>Module1_Lesson1.secondApp</StartupObject>
+    <StartupObject>Module1_Lesson1.thirdapp</StartupObject>
     <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
