@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <StartupObject>Module1_Lesson1.secondApp</StartupObject>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Module1_Lesson1</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="firstApp.cs">
+      <CustomToolNamespace>Module1_Lesson1</CustomToolNamespace>
+    </Compile>
+    <Compile Update="secondApp.cs">
+      <CustomToolNamespace>Module1_Lesson1</CustomToolNamespace>
+    </Compile>
+  </ItemGroup>
+
+</Project>
